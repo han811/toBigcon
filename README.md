@@ -8,10 +8,11 @@
 
 열심히 해보자고요~
 
-구글드라이브 링크 : https://drive.google.com/drive/u/1/folders/0ADeJeoZbwWRcUk9PVA
+Google Drive 링크 : https://drive.google.com/drive/u/1/folders/0ADeJeoZbwWRcUk9PVA  
+notino 링크 : https://www.notion.so/invite/472e8094d663dd2f36194139248aa13412329419  
 
-데이터는 용량이 크니 : 구글드라이브  
-코드는 : 깃  
-일정은 : 노션   
+데이터는 용량이 크니 : Google Drive  
+코드는 : Git  
+일정은 : Notion   
 
 ### 멤버 : 김미성, 김태욱, 김태한, 이유진
