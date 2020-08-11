@@ -7,3 +7,6 @@
 빅콘테스트 공지사항 : https://www.bigcontest.or.kr/community/board.php?gubun=notice  
 
 열심히 해보자고요~
+
+
+### 멤버 : 김미성, 김태욱, 김태한, 이유진
