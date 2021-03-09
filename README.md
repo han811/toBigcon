@@ -29,7 +29,7 @@
 ### [Model Flow]
 ![image](https://user-images.githubusercontent.com/28949182/110498327-90a8cd00-813a-11eb-9361-034553780b92.png)
 
-
+<br/>
 - **판매실적 예측 모델**
 
   0️⃣ 상품군별로 다른 데이터 분포 → 각 상품군별로 다른 모델 fitting     
@@ -37,21 +37,21 @@
 
   1️⃣ Tree-based model: LGBM, XGB, CATBOOST
 
-  판매실적의 분포가 매우 치우쳐져 있음. 따라서 regression 트리 모델을 학습시킬 때 objective function을 tweedie, gamma 등으로 조정하여 모델이 Sales의 분포를 반영하여 학습하도록 함.
+    판매실적의 분포가 매우 치우쳐져 있음. 따라서 regression 트리 모델을 학습시킬 때 objective function을 tweedie, gamma 등으로 조정하여 모델이 Sales의 분포를 반영하여 학습하도록 함.
 
   2️⃣ Text CNN
 
-  상품명에서의 정보를 추출해내기 위해 text cnn을 활용. 단순히 feature extractor로 활용하기보다는 regression 모델로 구축하여 바로 값예측에 활용할 수 있도록 함. 
+    상품명에서의 정보를 추출해내기 위해 text cnn을 활용. 단순히 feature extractor로 활용하기보다는 regression 모델로 구축하여 바로 값예측에 활용할 수 있도록 함. 
 
   3️⃣ Bayesian Optimization: hyperopt
 
-  베이지안 최적화를 통해 트리모델의 하이퍼파라미터 튜닝을 진행. 
+    베이지안 최적화를 통해 트리모델의 하이퍼파라미터 튜닝을 진행. 
 
   4️⃣ 앙상블
 
-  : 전체 데이터 기반 트리 모델 + 상품군별 트리 모델 + Text CNN
+    전체 데이터 기반 트리 모델 + 상품군별 트리 모델 + Text CNN
 
-
+<br/>
 - **편성 최적화**
   - 예측된 판매실적을 통해 상품 판매 방송의 편성을 시간별, 상품별로 최적화.
 
@@ -60,7 +60,7 @@
     : 판매실적이 극대화되는 시간별, 상품별 조합을 탐색함.   
 ![image](https://user-images.githubusercontent.com/28949182/110498600-d1084b00-813a-11eb-80f7-ce18ac64c00d.png)
 
-
+<br/>
 - **앙상블**
   - 앙상블을 통해 모델 간 Variance를 경감. 최종 성능은 개별 성능 대비 향상되었음. 
     (평가지표: MAPE)
