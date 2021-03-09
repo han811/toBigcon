@@ -17,9 +17,9 @@
 ```
   📁 00_공휴일 API.ipynb
   📁 01_base_data_전처리.ipynb
-  📁 01_2_base_data_전처리_(편성표용).ipynb
+  📁 01_base_data_전처리_(편성표용)_2.ipynb
   📁 02_데이터합치기.ipynb
-  📁 02_2_뉴스시청률_crawling.ipynb
+  📁 02_뉴스시청률_crawling_2.ipynb
   📁 03_EDA_FE.ipynb
   📁 04_FeatureSelection_test.ipynb
   📁 05_Tunning.ipynb
